@@ -1,0 +1,205 @@
+
+
+/* Définition des polices */
+a{
+	font:bold 13px Arial;
+	text-decoration: none;
+	color:#555;
+}
+
+/* Eléments principaux de la page */
+
+body {
+	width: 1400px;
+	height: 1400px;
+	margin: auto;
+	background-color: grey;
+}
+
+#bloc_page {
+	width: 1200px;
+    margin: auto;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    background-color: #281914;
+}
+
+header {
+	height: 350px;
+	width: 1400px;
+	margin: auto;
+	
+	
+}
+
+/* général */
+nav a{
+	text-decoration: none;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+/* colonne de droite */
+#colonedroite {
+	float: right;
+	height: 1200px;
+	padding: 50px 10px 50px 10px;
+	text-align: center;
+	width:210px;
+	cursor:pointer;
+	text-transform:capitalize;
+	background-color: #281914;
+}
+
+#colonedroite a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid red;
+}
+
+/* boutons*/ 
+.histoire {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:50%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none; 
+}
+
+.types {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:50%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.vetir {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.les_noeuds {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.culture {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.inspiration {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.bonnes_adresses {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.contact {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.a_propos {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+
+/* articles (middle) */
+
+#articles {
+	width: 900px;
+	height: auto;
+	padding: 50px 50px 50px 50px;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+section{
+	height: auto;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+}
+
+.article1 {
+
+}
+
+.article2 {
+	
+}
+
+.article3 {
+	
+}
+
+.article4 {
+	
+}
+
+

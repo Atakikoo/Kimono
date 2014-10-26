@@ -1,0 +1,263 @@
+﻿
+
+/* Définition des polices */
+a{
+	font:bold 13px Arial;
+	text-decoration: none;
+	color:#555;
+}
+
+/* Eléments principaux de la page */
+
+body {
+	width: 1400px;
+	height: 1400px;
+	margin: auto;
+	background-color: grey;
+}
+
+#bloc_page {
+	width: 1200px;
+    margin: auto;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+    background-color: #281914;
+}
+
+header {
+	height: 350px;
+	width: 1400px;
+	margin: auto;
+	
+	
+}
+
+/* général */
+nav a{
+	text-decoration: none;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+/* colonne de droite */
+#colonedroite {
+	float: right;
+	height: 1200px;
+	padding: 50px 10px 50px 10px;
+	text-align: center;
+	width:210px;
+	cursor:pointer;
+	text-transform:capitalize;
+	background-color: #281914;
+}
+
+#colonedroite a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid red;
+}
+
+/* boutons*/ 
+.histoire {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:50%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none; 
+}
+
+.types {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:50%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.vetir {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.les_noeuds {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.culture {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.inspiration {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.bonnes_adresses {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.contact {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+.a_propos {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:75%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+}
+
+
+/* rubrique img*/
+
+#rubriqueimg {
+	width: 1000px;
+	height: 270px;
+	background-color: #281914;
+}
+
+
+
+#CULTURE {
+	height: 225px;
+	width: 304px;
+	display: inline;
+	position: relative;
+	top:020px;
+	left:80px;
+	z-index:1;
+}
+
+
+#HISTOIRE {
+	height: 225px;
+	width: 304px;
+	display: inline;
+	position: relative;
+	top:30px;
+	left:50px;
+	z-index:2;
+}
+
+
+#LES_NOEUDS {
+	height: 225px;
+	width: 304px;
+	display: inline;
+	position: relative;
+	top:20px;
+	left:10px;
+	z-index:3;
+}
+
+/* propriétés image en survole */
+.survole img :hover{
+	background-color: red;
+	opacity: 0.5;
+}
+
+/*colonne de gauche (inspirations)  */
+
+#inspiration {
+	float: left;
+	width:400px;
+	height: 1000px;
+	padding-top: 20px;
+	margin-top: 60px;
+}
+
+/* articles (middle) */
+
+#articles {
+	width: 700px;
+	height: 700px;
+	padding: 50px 50px 50px 300px;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+section{
+	height: 25%;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+}
+
+.article1 {
+
+}
+
+.article2 {
+	
+}
+
+.article3 {
+	
+}
+
+.article4 {
+	
+}
+
+
