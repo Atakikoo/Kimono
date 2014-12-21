@@ -1,3 +1,3 @@
 #Kimono
 
-Premier test :)
+Premier site réalisé avec Sinatra.
