@@ -1,38 +1,97 @@
-﻿
-
-/* Définition des polices */
-a{
-	font:bold 13px Arial;
-	text-decoration: none;
-	color:#555;
-}
-
 /* Eléments principaux de la page */
 
 body {
 	width: 1400px;
-	height: 1400px;
+	height: auto;
 	margin: auto;
 	background-color: grey;
-}
-
-#bloc_page {
-	width: 1200px;
-    margin: auto;
-    height: 100%;
-    padding: 20px 20px 20px 20px;
-    background-color: #281914;
+	font-family: Helvetica;
 }
 
 header {
 	height: 350px;
 	width: 1400px;
 	margin: auto;
+}
 	
-	
+#bloc_page {
+	width: 1200px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    background-color: #281914;
 }
 
+/*entête header*/
+
+#home_img{
+	z-index:1;
+	display: inline;
+	position: relative;
+}
+
+#contact_icon{
+	display: inline;
+	position: relative;
+	top: -165px;
+	left: 600px;
+	z-index:2;
+}
+
+
 /* général */
+
+section {
+
+}
+
+.s_etroit {
+	width: 680px;
+	height: auto;
+	min-height: 710px;
+	padding: 0px 0px 50px 250px;
+	margin-top: 60px;
+}
+
+.s_large {
+	width: 950px;
+	height: auto;
+	min-height: 710px;
+	margin: 60px 40px 20px 20px;
+	border: auto;
+}
+
+.s_large_min {
+	width: 950px;
+	height: auto;
+	margin: 60px 40px 20px 20px;
+	border: auto;	
+}
+
+.s_vignette {
+	width: 950px;
+	height: auto;
+	border: auto;
+	margin: 10px;
+	padding: 20px 20px 20px 20px;
+}
+
+
+article{
+	margin-top: 20px;
+	padding: 20px 20px 20px 20px;
+	text-align: justify;
+	background-color: white;
+	text-decoration: none;
+}
+
+#id_vignette {
+	margin-top: 20px;
+	padding: 20px 20px 20px 20px;
+	text-align: justify;
+	text-decoration: none;
+}
+
+
 nav a{
 	text-decoration: none;
 }
@@ -40,224 +99,69 @@ nav a{
 ul
 {
 	list-style-type: none;
+	padding-left: 0px;
 }
 
-/* colonne de droite */
-#colonedroite {
-	float: right;
-	height: 1200px;
-	padding: 50px 10px 50px 10px;
+h1 {
+	font-size: 2em;
+    font-family: Helvetica;
+    font-weight: bold;
+	text-transform: uppercase;
 	text-align: center;
-	width:210px;
-	cursor:pointer;
-	text-transform:capitalize;
-	background-color: #281914;
+	color: #8A0829;
 }
 
-#colonedroite a:hover
-{
-    color: #760001;
-    border-bottom: 3px solid red;
+h2 {
+	font-size: 1.3em;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #72146D;
 }
 
-/* boutons*/ 
-.histoire {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:50%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none; 
+h3{
+	font-size: 1.2em;
+	font-family: Helvetica;
+    color: #9F81F7;
 }
 
-.types {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:50%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
+a, p {
+	font-size: 1em;
+	color:#2E2E2E;
 }
 
-.vetir {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:75%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
+blockquote {
+	font-size: small;
+	font-style: italic;
 }
 
-.les_noeuds {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:75%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
-}
-
-.culture {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:75%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
-}
-
-.inspiration {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:75%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
-}
-
-.bonnes_adresses {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:75%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
-}
-
-.contact {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:75%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
-}
-
-.a_propos {
-	width: 100px;
-	border:none;
-	padding:6px 20px 6px 20px;
-	border-radius:75%;
-	border-bottom:3px solid #760001;
-	font:bold 13px Arial;
-	color:#760001;
-	background:#fff;
-	text-decoration: none;
+.citation {
+	font-size: small;
 }
 
 
-/* rubrique img*/
+/* spécificités des pages */
 
-#rubriqueimg {
-	width: 1000px;
-	height: 270px;
-	background-color: #281914;
+.atakikoo_img /*a_propos*/{
+    float: left;
+    padding: 25px;
 }
 
-
-
-#CULTURE {
-	height: 225px;
-	width: 304px;
-	display: inline;
-	position: relative;
-	top:020px;
-	left:80px;
-	z-index:1;
+td {
+	padding: 2px 10px 2px 10px;
 }
 
-
-#HISTOIRE {
-	height: 225px;
-	width: 304px;
-	display: inline;
-	position: relative;
-	top:30px;
-	left:50px;
-	z-index:2;
+.vignette {
+	display: inline-block;
+	background: white;
+	width: 270px;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+	text-align: justify;
 }
 
-
-#LES_NOEUDS {
-	height: 225px;
-	width: 304px;
-	display: inline;
-	position: relative;
-	top:20px;
-	left:10px;
-	z-index:3;
+#vignette_img {
+	padding: auto;
 }
-
-/* propriétés image en survole */
-.survole img :hover{
-	background-color: red;
-	opacity: 0.5;
-}
-
-/*colonne de gauche (inspirations)  */
-
-#inspiration {
-	float: left;
-	width:400px;
-	height: 1000px;
-	padding-top: 20px;
-	margin-top: 60px;
-}
-
-/* articles (middle) */
-
-#articles {
-	width: 700px;
-	height: 700px;
-	padding: 50px 50px 50px 300px;
-	margin-top: 60px;
-	text-decoration: none;
-}
-
-section{
-	height: 25%;
-	padding: 20px 20px 20px 20px;
-	background-color: white;
-}
-
-.article1 {
-
-}
-
-.article2 {
-	
-}
-
-.article3 {
-	
-}
-
-.article4 {
-	
-}
-
-
