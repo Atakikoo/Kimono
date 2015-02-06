@@ -154,14 +154,16 @@ td {
 
 .vignette {
 	display: inline-block;
+	vertical-align: top;
 	background: white;
 	width: 270px;
 	height: auto;
 	padding: 10px;
 	margin: 10px;
 	text-align: justify;
+
 }
 
 #vignette_img {
-	padding: auto;
+	padding: 10px;
 }
