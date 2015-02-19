@@ -1,3 +1,3 @@
 #Kimono
 
-Premier site réalisé avec Sinatra.
+Premier site en cours de réalisation avec ruby, Sinatra.
