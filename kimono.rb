@@ -1,7 +1,5 @@
 require 'sinatra'
 
-require 'jquery'
-
 require 'pony'
 
 
@@ -12,39 +10,39 @@ get '/' do
   erb :home
 end
 
-get '/home.erb' do
+get '/home' do
   erb :home
 end
 
-get '/histoire.erb' do
+get '/histoire' do
   erb :histoire
 end
 
-get '/obis.erb' do
+get '/obis' do
   erb :obis
 end
 
-get '/culture.erb' do
+get '/culture' do
   erb :culture
 end
 
-get '/types.erb' do
+get '/types' do
   erb :types
 end
 
-get '/vetir.erb' do
+get '/vetir' do
   erb :vetir
 end
 
-get '/inspiration.erb' do
+get '/inspiration' do
   erb :inspiration
 end
 
-get '/mes_kimonos.erb' do
+get '/mes_kimonos' do
   erb :mes_kimonos
 end
 
-get '/bonnes_adresses.erb' do
+get '/bonnes_adresses' do
   erb :bonnes_adresses
 end
 
@@ -77,10 +75,10 @@ post '/contact/?' do
 end
 
 
-get '/a_propos.erb' do
+get '/a_propos' do
   erb :a_propos
 end
 
-get '/accuse.erb' do
+get '/accuse' do
   erb :a_propos
 end
