@@ -3,7 +3,7 @@
 <html>
 	<head> 
 	  	<meta charset = "utf-8" />
-	  	<link rel="stylesheet" href="css/kimono.css" />
+	  	<link rel="stylesheet" href="kimono.css" />
 					<!--[if lt IE 9]>
 					<script src="http://html5shiv.google.com/svn/trunk/html5.js" ></script>
 					<![endif]-->	
@@ -12,13 +12,13 @@
 					<link rel="stylesheet" href="style_ie.css" />
 					<![endif]-->
 
-		<link rel="stylesheet" type="text/css" href="css/colonne_droite_boutons.css" />
+		<link rel="stylesheet" type="text/css" href="colonne_droite_boutons.css" />
 
-		<link rel="stylesheet" type="text/css" href="css/inspiration.css" />
+		<link rel="stylesheet" type="text/css" href="inspiration.css" />
 
-		<link rel="stylesheet" type="text/css" href="css/menu_img.css" />
+		<link rel="stylesheet" type="text/css" href="menu_img.css" />
 		
-		<link rel="stylesheet" type="text/css" href="css/contact.css" />
+		<link rel="stylesheet" type="text/css" href="contact.css" />
 
 		
 		<link rel="shortcut icon" type="image/icon" href="img/kimono3_favicon.ico">
@@ -40,23 +40,28 @@
 			}(document));
 		</script>
 
-
 		<!-- fancyBox -->
 		<!-- Add jQuery library -->
-		<script src="//code.jquery.com/jquery-2.1.2.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 		<!-- mousewheel plugin -->
-		<script type="text/javascript" src="js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
 		<!-- fancyBox -->
-		<link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js"></script>
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
 
 		<!-- Optionally add helpers - button -->
-		<link rel="stylesheet" href="js/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
 
-		<script type="text/javascript" src="js/client.js"></script>
+		<!-- attach fancyBox -->
+		<script type="text/javascript">
+		$(document).ready(function() {
+		$(".fancybox").fancybox();
+		});
+		</script>
+	
 	</head> 
 
 	<body> 
@@ -64,13 +69,13 @@
 		<header class="en-tete">
 
 			<div>
-				<center><a id="home_img" href="home"><img src="img/kimonopresentation.jpg"></center>
+				<center><a id="home_img" href="home.erb"><img src="img/kimonopresentation.jpg"></center>
 
 				<center><a id="contact_icon" href="https://www.youtube.com/playlist?list=PLpnO2iS6617mOIo_-isA2LoHuukoU6Imk"><img src="img/youtube.png"></center></center>
 				<br>
 				<center><a id="contact_icon" href="https://www.pinterest.com/Atakikoo/"><img src="img/pinterest.png"></center>
 				<br>
-				<center><a id="contact_icon" href="contact"><img src="img/contact.png"></center>
+				<center><a id="contact_icon" href="contact.erb"><img src="img/contact.png"></center>
 			</div>
 				
 		</header>
