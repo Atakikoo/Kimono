@@ -1,10 +1,5 @@
 require 'sinatra'
 
-require 'jquery'
-
-require 'pony'
-
-
 set :port, 8080
 
 
@@ -48,34 +43,9 @@ get '/bonnes_adresses.erb' do
   erb :bonnes_adresses
 end
 
-get '/contact/?' do
-  @title = 'Contact'
+get '/contact.erb' do
   erb :contact
 end
-
-post '/contact/?' do
-  options = {
-  :to => 'atakikoo@myself.com',
-  :from => params[:email],
-  :subject => params[:name],
-  :body => params[:message],
-  :via => :smtp,
-  :via_options => {
-    :address => 'smtp.sendgrid.net',
-    :port => '587',
-    :domain => 'heroku.com',
-    :user_name => ENV['SENDGRID_USERNAME'],
-    :password => ENV['SENDGRID_PASSWORD'],
-    :authentication => :plain,
-    :enable_starttls_auto => true
-    }
-  }
-  
-  Pony.mail(options)
-  
-  redirect '/contact'
-end
-
 
 get '/a_propos.erb' do
   erb :a_propos

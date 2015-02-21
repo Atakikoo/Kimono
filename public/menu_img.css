@@ -3,17 +3,40 @@
 #rubriqueimg {
 	width: 1000px;
 	height: 270px;
+	background-color: #281914;
 }
 
 
-#CULTURE, #HISTOIRE, #LES_OBIS{
+
+#CULTURE {
 	height: 225px;
 	width: 304px;
 	display: inline;
-	padding: 15px;
 	position: relative;
-	top: 22px;
-
+	top:020px;
+	left:80px;
+	z-index:1;
 }
 
+
+#HISTOIRE {
+	height: 225px;
+	width: 304px;
+	display: inline;
+	position: relative;
+	top:30px;
+	left:50px;
+	z-index:2;
+}
+
+
+#LES_NOEUDS {
+	height: 225px;
+	width: 304px;
+	display: inline;
+	position: relative;
+	top:20px;
+	left:10px;
+	z-index:3;
+}
 
