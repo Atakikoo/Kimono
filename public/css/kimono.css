@@ -1,0 +1,210 @@
+/* Eléments principaux de la page */
+
+body {
+	width: 1400px;
+	height: auto;
+	margin: auto;
+	background-color: grey;
+	font-family: Helvetica;
+}
+
+header {
+	height: 350px;
+	width: 1400px;
+	margin: auto;
+}
+	
+#bloc_page {
+	width: 1200px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    background-color: #281914;
+}
+
+/*entête header*/
+
+#home_img{
+	z-index:1;
+	display: inline;
+	position: relative;
+}
+
+#contact_icon{
+	display: inline;
+	position: relative;
+	top: -165px;
+	left: 600px;
+	z-index:2;
+}
+
+
+/* général */
+
+section {
+
+}
+
+.s_etroit {
+	width: 780px;
+	height: auto;
+	min-height: 710px;
+	padding: 0px 0px 50px 210px;
+	margin-top: 60px;
+}
+
+.s_large {
+	width: 1000px;
+	height: auto;
+	min-height: 710px;
+	margin: 60px 40px 20px 0px;
+	border: auto;
+}
+
+.s_large_min {
+	width: 1000px;
+	height: auto;
+	margin: 60px 40px 20px 20px;
+	border: auto;	
+}
+
+.s_vignette {
+	width: 960px;
+	height: auto;
+	border: auto;
+	margin: 20px 20px 20px 30px;
+	padding: 20px;
+}
+
+.s_2_colonnes {
+	width: 1000px;
+	height: auto;
+	border: auto;
+	margin: 60px 40px 20px 0px;
+	padding: auto;
+	background-color: #180614;
+}
+
+
+article{
+	margin: 20px;
+	padding: 20px 20px 20px 20px;
+	text-align: justify;
+	background-color: white;
+	text-decoration: none;
+}
+
+
+nav a{
+	text-decoration: none;
+}
+
+ul
+{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+h1 {
+	font-size: 2em;
+    font-family: Helvetica;
+    font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #8A0829;
+}
+
+h2 {
+	font-size: 1.3em;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #72146D;
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+h3{
+	font-size: 1.2em;
+	font-family: Helvetica;
+    color: #9F81F7;
+    padding: 0px 0px 0px 20px;
+}
+
+a, p {
+	font-size: 1em;
+	color:#2E2E2E;
+}
+
+blockquote {
+	font-size: small;
+	font-style: italic;
+}
+
+.citation {
+	font-size: small;
+}
+
+
+/* spécificités des pages */
+
+.atakikoo_img /*a_propos*/{
+    float: left;
+    padding: 25px;
+}
+
+.walk_img /*vetir*/ {
+	float: right;
+	padding: 10px 25px 10px 25px;
+}
+td { /*vetir*/
+	padding: 2px 10px 2px 10px;
+}
+
+.ajustement_vignette { /*types, vetir*/
+	margin: 17px 0px 17px 0px;
+	border: 1px solid white;
+}
+
+.vignette_types { /*types*/
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+	background: white;
+	text-align: justify;
+
+}
+
+.vignette_vetir { /*vetir*/
+	display: inline-block;
+	vertical-align: top;
+	width: 416px;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	background: white;
+	text-align: justify;
+}
+
+.vignette_vetir2 { /*vetir*/
+	display: inline-block;
+	vertical-align: top;
+	width: 916px;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	background: white;
+	text-align: justify;
+}
+
+.vignette_img {
+	padding: 10px;
+}
+
+.gallerie_mes_kimonos {
+	padding: 2px;
+	left: 10px;
+}

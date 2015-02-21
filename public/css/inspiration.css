@@ -1,0 +1,32 @@
+/*colonne de gauche (inspirations)  */
+
+#inspiration {
+	float: left;
+	width:210px;
+	height: 600px;
+	padding-top:0px;
+	margin-top: 60px;
+}
+
+/* page inspiration*/
+
+#inspiration_weared_kimono {
+	width:850px;
+	height: auto;
+	padding: 60px 100px 50px 65px;
+	background-color: #281914;
+}
+
+#inspiration_kimonos{
+	width:850px;
+	height: auto;
+	padding: 60px 100px 50px 65px;
+	background-color: #281914;
+}
+
+#inspiration_kimono_men {
+	width:850px;
+	height: auto;
+	padding: 60px 100px 50px 65px;
+	background-color: #281914;
+}

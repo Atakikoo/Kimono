@@ -1,0 +1,43 @@
+/* colonne de droite */
+#colonedroite {
+	float: right;
+	height: auto;
+	width: auto;
+	padding: auto;
+	margin: 60px 20px 20px 20px;
+	text-align: center;
+	background-color: #281914;
+}
+
+#colonedroite a:hover
+{
+    color: #760001; 
+    border-bottom: 3px solid red;
+}
+
+/* boutons*/ 
+.boutons_colonne_droite {
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:50%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:#760001;
+	background:#fff;
+	text-decoration: none;
+	text-transform:capitalize; 
+}
+
+.boutons_colonne_droite_grey /* page vide */{
+	width: 100px;
+	border:none;
+	padding:6px 20px 6px 20px;
+	border-radius:50%;
+	border-bottom:3px solid #760001;
+	font:bold 13px Arial;
+	color:grey;
+	background:#fff;
+	text-decoration: none;
+	text-transform:capitalize; 
+}

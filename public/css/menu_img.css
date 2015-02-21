@@ -1,0 +1,19 @@
+/* menu img*/
+
+#rubriqueimg {
+	width: 1000px;
+	height: 270px;
+}
+
+
+#CULTURE, #HISTOIRE, #LES_OBIS{
+	height: 225px;
+	width: 304px;
+	display: inline;
+	padding: 15px;
+	position: relative;
+	top: 22px;
+
+}
+
+
