@@ -45,7 +45,7 @@ section {
 }
 
 .s_etroit {
-	width: 780px;
+	width: 800px;
 	height: auto;
 	min-height: 710px;
 	padding: 0px 0px 50px 210px;
@@ -106,16 +106,15 @@ ul
 
 h1 {
 	font-size: 2em;
-    font-family: Helvetica;
+    font-family: 'Rock Salt', cursive;
     font-weight: bold;
-	text-transform: uppercase;
 	text-align: center;
 	color: #8A0829;
 }
 
 h2 {
-	font-size: 1.3em;
-    font-family: Helvetica;
+	font-size: 1.6em;
+    font-family: 'Vibur', cursive;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
@@ -125,15 +124,22 @@ h2 {
 }
 
 h3{
-	font-size: 1.2em;
-	font-family: Helvetica;
+	font-size: 1.5em;
+	font-family: 'Vibur', cursive;
     color: #9F81F7;
     padding: 0px 0px 0px 20px;
 }
 
 a, p {
+	font-family:  Comic Sans, Comic Sans MS, cursive;
 	font-size: 1em;
 	color:#2E2E2E;
+}
+
+.handwritting /*style pour petit mot de l'auteur*/ {
+	font-family: 'Redressed', cursive;
+	font-weight: bold;
+	font-size: 1.3em;
 }
 
 blockquote {
@@ -170,11 +176,11 @@ td { /*vetir*/
 	display: inline-block;
 	vertical-align: top;
 	width: 270px;
-	height: auto;
 	padding: 10px;
 	margin: 10px;
 	background: white;
 	text-align: justify;
+	position: relative;
 
 }
 
@@ -200,11 +206,36 @@ td { /*vetir*/
 	text-align: justify;
 }
 
-.vignette_img {
-	padding: 10px;
+/*vetir taille vignette*/
+.v_taille_420 {
+	height: 420px;
 }
 
-.gallerie_mes_kimonos {
-	padding: 2px;
-	left: 10px;
+.v_taille_390 {
+	height: 390px;
 }
+
+.v_taille_470 {
+	height: 470px;
+}
+
+.v_taille_320 {
+	height: 320px;
+}
+
+.v_taille_360 {
+	height: 360px;
+}
+
+.v_taille_450 {
+	height: 450px;
+}
+
+/* vignette vetir place text en bas*/
+.text_bas {
+	padding: 10px 10px 0px 0px;
+	position: absolute;
+	bottom: 0px;
+}
+
+
