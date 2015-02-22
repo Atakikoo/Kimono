@@ -44,11 +44,10 @@ section {
 }
 
 .s_etroit {
-	width: 800px;
+	width: 770px;
 	height: auto;
 	min-height: 710px;
-	padding: 0px 0px 50px 210px;
-	margin-top: 0px;
+	margin: 0px 40px 20px 230px;
 }
 
 .s_large {
@@ -70,7 +69,7 @@ section {
 	width: 960px;
 	height: auto;
 	border: auto;
-	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
 	background-color: white;
 }
 
@@ -79,13 +78,19 @@ section {
 	height: auto;
 	margin: 0px 40px 20px 0px;
 	padding: auto;
-	background-color: white;
 }
 
 
 article{
-	margin: 20px 0px 20px 0px;
+	margin: 20px 10px 20px 10px;
 	padding: 20px 20px 20px 20px;
+	text-align: justify;
+	background-color: white;
+	text-decoration: none;
+}
+
+.article_vignette /* vignette vetir et article inspiration*/{
+	padding: 0px 0px 0px 0px;
 	text-align: justify;
 	background-color: white;
 	text-decoration: none;
@@ -108,30 +113,29 @@ h1 {
     font-weight: bold;
 	text-align: center;
 	color: #8A0829;
+	padding-left: 20px;
 }
 
 h2 {
-	font-size: 1.6em;
-    font-family: 'Vibur', cursive;
+	font-size: 1.7em;
+    font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: underline;
     color: #72146D;
     background-color: white;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 20px;
 }
 
 h3{
 	font-size: 1.5em;
-	font-family: 'Vibur', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
     color: #9F81F7;
     padding: 0px 0px 0px 20px;
 }
 
 .handwritting /*style pour petit mot de l'auteur*/ {
-	font-family: 'Redressed', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1em;
 }
 a, p {
 	font-size: 1em;
@@ -167,8 +171,8 @@ td { /*vetir*/
 }
 
 .ajustement_vignette { /*types, vetir*/
-	margin: 17px 0px 17px 0px;
-	border: 1px solid white;
+	margin: 20px 10px 20px 10px;
+	padding: 20px 20px 20px 20px;
 }
 
 .vignette_types { /*types*/
@@ -180,7 +184,7 @@ td { /*vetir*/
 	background: white;
 	text-align: justify;
 	position: relative;
-	border: 2px solid #281914;
+	border: 2px solid lightgrey;
 
 }
 
@@ -190,23 +194,23 @@ td { /*vetir*/
 	vertical-align: top;
 	width: 416px;
 	height: 350px;
-	padding: 20px;
-	margin: 20px;
+	padding: 10px;
 	background: white;
 	text-align: justify;
-	border: 2px solid #281914;
+	border: 2px solid lightgrey;
+	margin-bottom: 20px;
 }
 
 .vignette_vetir2 { /*vetir*/
 	display: inline-block;
 	vertical-align: top;
-	width: 916px;
+	width: 900px;
 	height: auto;
-	padding: 20px;
-	margin: 20px;
+	padding: 10px;
+	margin-bottom: 20px;
 	background: white;
 	text-align: justify;
-	border: 2px solid #281914;
+	border: 2px solid lightgrey;
 }
 
 /*vetir taille vignette*/
@@ -234,11 +238,14 @@ td { /*vetir*/
 	height: 480px;
 }
 
-/* vignette vetir place text en bas*/
+/* vignette vetir/type place text en bas*/
 .text_bas {
-	padding: 10px 20px 0px 0px;
 	position: absolute;
-	bottom: 0px;
+	bottom: 10px;
+	margin-right: 20px;
 }
 
+.float_right /*vignette obi/vetir */ {
+	float: right;
+}
 
