@@ -5,7 +5,6 @@ body {
 	height: auto;
 	margin: auto;
 	background-color: grey;
-	font-family: Helvetica;
 }
 
 header {
@@ -49,21 +48,21 @@ section {
 	height: auto;
 	min-height: 710px;
 	padding: 0px 0px 50px 210px;
-	margin-top: 60px;
+	margin-top: 0px;
 }
 
 .s_large {
 	width: 1000px;
 	height: auto;
 	min-height: 710px;
-	margin: 60px 40px 20px 0px;
+	margin: 0px 40px 20px 0px;
 	border: auto;
 }
 
 .s_large_min {
 	width: 1000px;
 	height: auto;
-	margin: 60px 40px 20px 20px;
+	margin: 20px 0px 20px 0px;
 	border: auto;	
 }
 
@@ -71,22 +70,21 @@ section {
 	width: 960px;
 	height: auto;
 	border: auto;
-	margin: 20px 20px 20px 30px;
-	padding: 20px;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
 }
 
 .s_2_colonnes {
 	width: 1000px;
 	height: auto;
-	border: auto;
-	margin: 60px 40px 20px 0px;
+	margin: 0px 40px 20px 0px;
 	padding: auto;
-	background-color: #180614;
+	background-color: white;
 }
 
 
 article{
-	margin: 20px;
+	margin: 20px 0px 20px 0px;
 	padding: 20px 20px 20px 20px;
 	text-align: justify;
 	background-color: white;
@@ -130,17 +128,18 @@ h3{
     padding: 0px 0px 0px 20px;
 }
 
-a, p {
-	font-family:  Comic Sans, Comic Sans MS, cursive;
-	font-size: 1em;
-	color:#2E2E2E;
-}
-
 .handwritting /*style pour petit mot de l'auteur*/ {
 	font-family: 'Redressed', cursive;
 	font-weight: bold;
 	font-size: 1.3em;
 }
+a, p {
+	font-size: 1em;
+	font-family: Helvetica;
+	color:#2E2E2E;
+}
+
+
 
 blockquote {
 	font-size: small;
@@ -176,23 +175,26 @@ td { /*vetir*/
 	display: inline-block;
 	vertical-align: top;
 	width: 270px;
-	padding: 10px;
-	margin: 10px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 13px;
 	background: white;
 	text-align: justify;
 	position: relative;
+	border: 2px solid #281914;
 
 }
 
 .vignette_vetir { /*vetir*/
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	width: 416px;
-	height: auto;
+	height: 350px;
 	padding: 20px;
 	margin: 20px;
 	background: white;
 	text-align: justify;
+	border: 2px solid #281914;
 }
 
 .vignette_vetir2 { /*vetir*/
@@ -204,19 +206,20 @@ td { /*vetir*/
 	margin: 20px;
 	background: white;
 	text-align: justify;
+	border: 2px solid #281914;
 }
 
 /*vetir taille vignette*/
 .v_taille_420 {
-	height: 420px;
+	height: 430px;
 }
 
 .v_taille_390 {
-	height: 390px;
+	height: 410px;
 }
 
 .v_taille_470 {
-	height: 470px;
+	height: 490px;
 }
 
 .v_taille_320 {
@@ -224,16 +227,16 @@ td { /*vetir*/
 }
 
 .v_taille_360 {
-	height: 360px;
+	height: 380px;
 }
 
 .v_taille_450 {
-	height: 450px;
+	height: 480px;
 }
 
 /* vignette vetir place text en bas*/
 .text_bas {
-	padding: 10px 10px 0px 0px;
+	padding: 10px 20px 0px 0px;
 	position: absolute;
 	bottom: 0px;
 }
